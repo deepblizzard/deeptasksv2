@@ -4,9 +4,10 @@ const nextConfig: NextConfig = {
   /* config options here */
   eslint: {
     // Warning: This allows production builds to successfully complete even if
-    // your project has ESLint errors.
+    // your project has ESLint errors.c
     ignoreDuringBuilds: true,
   },
 };
 
 export default nextConfig;
+
