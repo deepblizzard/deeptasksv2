@@ -7,7 +7,7 @@ export default async function DashboardLayout({
   children: React.ReactNode;
 }) {
   const { has } = await auth();
-  const hasProPlan = has({ plan: "pro_user" });
+  const hasProPlan = true;
   const hasEnterprisePlan = has({ plan: "enterprise_user" });
 
   return (
@@ -16,3 +16,4 @@ export default async function DashboardLayout({
     </PlanProvider>
   );
 }
+
